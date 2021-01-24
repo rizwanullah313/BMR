@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;0,800;0,900;1,700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+
+    
+    
+  <div id="bmrcalc">
+
+    <form name="myForm" onSubmit="return calculate()">
+      <h2>BMR Calculator</h2>
+
+      <div class="inputwrap">
+        <label class="label">Age</label>
+        <input type="text" name="age" class="">
+      </div>
+
+      <div class="inputwrap">
+        <label class="label">Gender</label>
+        <label><input type="radio" name="gender" value="1">Male</label>
+        <label><input type="radio" name="gender" value="2">Female</label>
+      </div>
+
+      <div class="inputwrap">
+        <label class="label">Feet (cm)</label>
+        <input type="text" name="feet">
+      </div>
+      <div class="inputwrap">
+        <label class="label">Inches (cm)</label>
+        <input type="text" name="inches">
+      </div>
+      <div class="inputwrap">
+        <label class="label">Weight (pound)</label>
+        <input type="text" name="weight">
+      </div>
+
+      <div class="inputwrap">
+        <input type="submit" value="Calculate">
+      </div>
+
+      <div id="result">
+      </div>
+
+
+    </form>
+
+  </div>
+
+</body>
+</html>
